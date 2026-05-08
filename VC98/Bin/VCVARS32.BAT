@@ -1,17 +1,17 @@
 @echo off
 rem
 rem Root of Visual Developer Studio Common files.
-set VSCommonDir=C:\PROGRA~1\MICROS~3\Common
+set VSCommonDir=%~dp0..\..\Common
 
 rem
 rem Root of Visual Developer Studio installed files.
 rem
-set MSDevDir=C:\PROGRA~1\MICROS~3\Common\msdev98
+set MSDevDir=%~dp0..\..\Common\msdev98
 
 rem
 rem Root of Visual C++ installed files.
 rem
-set MSVCDir=C:\PROGRA~1\MICROS~3\VC98
+set MSVCDir=%~dp0..\
 
 rem
 rem VcOsDir is used to help create either a Windows 95 or Windows NT specific path.
