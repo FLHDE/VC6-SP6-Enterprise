@@ -11,7 +11,7 @@ set MSDevDir=%~dp0..\..\Common\msdev98
 rem
 rem Root of Visual C++ installed files.
 rem
-set MSVCDir=%~dp0..\
+set MSVCDir=%~dp0..
 
 rem
 rem VcOsDir is used to help create either a Windows 95 or Windows NT specific path.
