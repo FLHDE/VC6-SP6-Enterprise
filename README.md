@@ -54,7 +54,7 @@ jobs:
           name: Release build
           path: |
             project/*.exe
-			project/*.dll
+            project/*.dll
 ```
 
 This workflow works on the `windows-latest` runner as of 15/07/2026.
