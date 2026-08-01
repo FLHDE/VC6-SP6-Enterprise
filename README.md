@@ -11,10 +11,10 @@ Besides the base Visual Studio 6.0 Enterprise installation, additional updates w
 ## Usage instructions
 After cloning the VC6-SP6-Enterprise repository, run the `VC98\Bin\VCVARS32.BAT` script in a command-line window. 
 The common build tools such as `NMAKE`, `CL`, `LINK`, `RC`, and `LIB` should now be available during the command-line session. 
-These tools work without issues on Windows 11 25H2 as of 16/06/2026.
+These tools run on Windows 11 25H2 as of 01/08/2026.
 
 > [!WARNING]
-> On modern systems, the NMAKE tool may not always properly rebuild outdated targets. To fix this, use the NMAKE tool from a newer Visual Studio version instead of the VC6 NMAKE.
+> On modern systems, the `NMAKE` tool may not always properly rebuild outdated targets. To fix this, use the `NMAKE` tool from a newer Visual Studio version instead of the included VC6 `NMAKE`.
 
 Here is a GitHub workflow script that can be used to compile VC6 projects and upload their binaries as artifacts:
 ```yml
